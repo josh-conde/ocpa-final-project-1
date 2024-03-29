@@ -73,7 +73,7 @@ img {
 }
 
 h2 {
-    color: hsl(272, 82%, 9%)
+    color: var(--color-extra);
 }
 article {
     background-color:hsla(280, 30%, 26%, 0.1);
@@ -194,12 +194,10 @@ h3 {
     box-shadow: 0 8px 2px hsla(272, 76%, 45%, 0.185);
     width: 400px;
     height: 200px;
-    cursor: grab; 
 }
 
 .jupiter-info-container {
-    text-align: left;
-    
+    text-align: left;  
 }
 
 .jupiter-info-container h3 {
@@ -219,6 +217,11 @@ h3 {
     width: 500px;
     display: block;
     padding: 4px;    
+}
+
+#individual-moon-img {
+    width: 250px;
+    height: 215px;
 }
 
 .saturn-info-container {
@@ -345,3 +348,7 @@ h3 {
 .europa-clipper-vid-container iframe {
     padding-right: 40px;
 }
+
+/* about-me.html*/
+
+
